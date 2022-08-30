@@ -15,14 +15,6 @@ body {
   height: 100vh;
 }
 
-img {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* max-width: 100%; */
-}
-
 a {
   color: #C4B454;
   text-decoration: none;
@@ -109,14 +101,14 @@ h6 {
 .section-header {
   margin-bottom: 60px;
   position: relative;
-  /* padding-bottom: 20px; */
+  padding-bottom: 20px;
 }
 
 .section-header h2 span {
   color: black;
 }
 
-/* .section-header::before {
+.section-header::before {
   content: "";
   position: absolute;
   display: block;
@@ -125,14 +117,14 @@ h6 {
   background: #C4B454;
   bottom: 0;
   left: calc(50% - 25px);
-} */
+}
 
 .section-header h2 {
   font-size: 36px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 .section-header p {
@@ -261,7 +253,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(202, 206, 221, 0.8);
+  color: black;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -301,7 +293,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #C4B454;
 }
 
 .navbar .dropdown ul {
@@ -373,7 +365,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(123, 120, 120);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -839,7 +831,8 @@ h6 {
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
-  padding: 30px 0 0 0;
+  padding: 100px 0 0 0;
+  width: 90%;
 }
 
 #schedule .nav-tabs {
@@ -847,7 +840,7 @@ h6 {
   margin: auto;
   display: block;
   border-bottom: 0;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
 }
 
 #schedule .nav-tabs li {
@@ -858,29 +851,29 @@ h6 {
 #schedule .nav-tabs a {
   border: none;
   border-radius: 10px;
-  /* font-weight: 600; */
+  font-weight: 600;
   background-color: black;
   color: #fff;
   padding: 5px;
-  width: 160px;
+  width: 120px;
   margin: 0 10px 10px 0;
 }
 
 @media (max-width: 991px) {
   #schedule .nav-tabs a {
-    padding: 8px 60px;
+    padding: 8px;
   }
 }
 
 @media (max-width: 767px) {
   #schedule .nav-tabs a {
-    padding: 8px 50px;
+    padding: 8px;
   }
 }
 
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
-    padding: 8px 30px;
+    padding: 8px;
   }
 }
 
@@ -948,7 +941,7 @@ h6 {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  color: black;
   font-weight: normal;
   font-size: 16px;
 }
